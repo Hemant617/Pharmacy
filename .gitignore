@@ -1,14 +1,20 @@
-*.tar
-*.tar.*
-*.jar
+# Ignore compiled files
 *.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+*.out
+*.o
+*.obj
 
-pkg/
-src/
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore data/log/output files
+*.dat
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (optional)
+.vscode/
