@@ -1,0 +1,2 @@
+ID    Name       Quantity   Price      Expiry         
+232   Paracitamol 200        30.00      12-12-2024     
